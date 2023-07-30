@@ -32,7 +32,6 @@ if (breadType!==null) {
     } else {
         breadType=breadTypeHamburger;
         totalPrice += hamburgerPrice;
-        totalPrice=totalPrice;
     };
 
 
@@ -41,7 +40,6 @@ if (breadTypeCheeseburger) {
     cheeseburgerAddition= confirm(`Would you like ${cheeseburgerAddition} ?`);
     if (cheeseburgerAddition===true) {
         totalPrice+=doubleCheesePrice;
-        totalPrice=totalPrice;
     };
 };
 
